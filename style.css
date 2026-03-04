@@ -416,3 +416,121 @@ a {
     transition: max-height 0.2s ease-out;
     color: rgba(255,255,255,0.8);
 }
+
+footer {
+    background-color: #2f2b3f00;
+    color: #e5e7eb;
+    padding: 80px 20px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 60px auto 0;
+    border-radius: 24px 24px 0 0;
+    position: relative;
+}
+
+.footer-container h3 {
+    color: #fff;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    max-width: 300px;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li a {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.footer-nav ul li a:hover {
+    color: #4ade80;
+    padding-left: 4px;
+}
+
+.footer-contact p {
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: #0ca3af;
+}
+
+.footer-contact a {
+    color: #e5e7eb;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.footer-contact a:hover {
+    color: #4ade80;
+    padding-left: 4px;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-links a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 114, 128, 50%);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.social-links a:hover {
+    color: #4ade80;
+    padding-left: 4px;
+}
+
+.footer-bottom {
+    grid-column: 1 / -1;
+    border-top: 1px solid #1f2937;
+    padding-top: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+
+@media (max-width: 640px) {
+    footer {
+        padding: 60px 24px 30px;
+        text-align: center;
+        border-radius: 0;
+    }
+    
+    .footer-container p {
+        margin: 0 auto;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
