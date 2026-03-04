@@ -393,7 +393,7 @@ a {
 }
 
 .accordion::after {
-    content: '\02795';
+    content: "+";
     font-size: 13px;
     color: rgba(255,255,255,1);
     float: right;
@@ -402,7 +402,7 @@ a {
 }
 
 .accordion.active::after {
-    content: "\2796";
+    content: "-";
     color: #ee5e11;
 }
 
