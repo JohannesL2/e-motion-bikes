@@ -247,9 +247,10 @@ a {
 
 
 .testimonials {
-    height: 60vh;
-        background: url("./assets/minimalist2.jpg") no-repeat center center/cover;
-    padding: 40px 20px 100px;
+    min-height: 60vh;
+    height: auto;
+    background: url("./assets/minimalist2.jpg") no-repeat center center/cover;
+    padding: 80px 20px;
     color: #ffffff;
     text-align: center;
 }
@@ -361,9 +362,10 @@ a {
 }
 
 .faq {
-    padding: 30px;
+    padding: 80px 20px;
     background-color: rgba(43, 36, 56, 0.4);
-    height: 40vh;
+    min-height: 40vh;
+    height: auto;
 }
 
 .accordion {
@@ -596,4 +598,21 @@ footer h4 {
 .why-title {
     color: #000;
     padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .testimonials, .faq {
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .testimonial-grid {
+        gap: 20px;
+    }
+
+    .accordion {
+        font-size: 1rem;
+        padding: 20px 5px;
+    }
 }
