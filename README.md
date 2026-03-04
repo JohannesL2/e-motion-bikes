@@ -2,6 +2,10 @@
 
 Modern electric bikes for city, mountains, and commuting.
 
+<p align="center">
+  <img src="./assets/mockup-laptop.png" width="800" alt="E-Motion Bikes website shown in a laptop frame" />
+</p>
+
 ## Features
 - Responsive hero section
 - Model showcase with details toggle
